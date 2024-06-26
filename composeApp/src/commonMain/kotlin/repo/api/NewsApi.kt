@@ -15,9 +15,7 @@ interface NewsApi {
 
 }
 
-expect class JsonLoader() {
-    fun loadJsonFile(fileName: String = "files/news.json"): String?
-}
+
 
 //
 class DebugNewsApi (
